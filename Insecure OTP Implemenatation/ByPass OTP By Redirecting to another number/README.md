@@ -11,15 +11,18 @@ Impact
 Recommendation
 Reference
 
-#### DYNAMIC ANALYSIS
-#### Insecure OTP Implementation
-#### Bypassing OTP by Redirecting it to another number
+#### CONTROL GROUP
+DYNAMIC ANALYSIS
+#### CONTROL
+Insecure OTP Implementation
+#### VULNERABILITY
+Bypassing OTP by Redirecting it to another number
 #### AUDIT GUIDELINES
-##### Check if the OTP is passed in the request body
+Check if the OTP is passed in the request body
 #### DESCRIPTION
 During security assessment, it has been observed that the OTP is passed in the request body, attacker intercepted the request using a proxy tool such as Burp suite and replaced victim's mobile number with his mobile number and the OTP was redirected to his number. 
 #### IMPACT
-##### Intergrity Loss
+Intergrity Loss
 #### RECOMMENDATIONS
 Generation of OTP should be validated at the server side
 #### REFERENCES 
