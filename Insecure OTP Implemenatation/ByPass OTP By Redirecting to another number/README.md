@@ -1,16 +1,6 @@
 # Insecure OTP Implementation
 ## Bypassing OTP by Redirecting it to another number
 
-Control Method
-Control Group
-Control
-Vulnerability
-Audit Guidelines
-Description
-Impact
-Recommendation
-Reference
-
 #### CONTROL GROUP
 DYNAMIC ANALYSIS
 #### CONTROL
